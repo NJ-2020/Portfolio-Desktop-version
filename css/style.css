@@ -309,6 +309,31 @@ h1 {
   line-height: 24px;
   color: #344563;
   margin-top: 10px;
+  animation-name: panimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes panimation {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: greenyellow;
+  }
+
+  75% {
+    background-color: gold;
+  }
+
+  100% {
+    background-color: white;
+  }
 }
 
 button {
